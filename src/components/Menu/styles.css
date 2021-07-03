@@ -1,0 +1,37 @@
+.menu {
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#F26835;
+    border-radius: 20px;
+}
+.menuCaixa{
+    background-color: #BF2626;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 0.8rem;
+    align-items: right;
+    justify-content: right;
+    letter-spacing: 0.8px;    
+}
+.menu li {
+    margin-left: 3rem;
+    list-style: none;
+    height: 30px;
+    align-content: center;
+    padding-right: 30px;
+    padding-top: 6px;
+    
+}
+
+.link {
+    color: #FFFF;
+    text-decoration: none;
+    border-radius: 20%;
+    align-content: center;      
+    
+}
