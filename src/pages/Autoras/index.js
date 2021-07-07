@@ -10,7 +10,7 @@ const Autoras = () => {
 
     useEffect(()=> {
         const pegaDados = async () =>{
-            const resposta = await Axios.get('http://hp-api.herokuapp.com/api/characters')
+            const resposta = await Axios.get('https://my-json-server.typicode.com/gabrielacsalesc/livros/db')
             const dados = await resposta.data
             setRepos(dados)
         }    
@@ -21,7 +21,7 @@ const Autoras = () => {
     useEffect(()=>{
         setFiltroRepos(
             repos.filter(repo => {
-                return repo.name.includes(busca)
+                return repo.titulo.includes(busca)
             })
         )
     },[busca,repos])
@@ -31,7 +31,7 @@ const Autoras = () => {
         <>  
             <input onChange={e => {setBusca(e.target.value)}} placeholder="Digite um personagem" />
             {filtroRepos.map(repo => (
-                <a key={repo.name} href={repo.imagem}>{repo.house}</a>
+                <a key={repo.capa} href={repo.titulo}>{repo.autora}>{repo.descricao}</a>
             ))}
         </>
     )

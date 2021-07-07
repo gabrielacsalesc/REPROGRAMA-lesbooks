@@ -5,7 +5,7 @@ const Footer = () => {
     return(
             <div className="footer">
                 <div>
-                    <p>Realizado pela aluna Gabriela Coutinho para o projeto final do Bootcamp Reprograma</p>                
+                    <p className="paragrafoFooter">Realizado pela aluna Gabriela Coutinho para o projeto final do Bootcamp Reprograma</p>                
                 </div>
 
             </div>           

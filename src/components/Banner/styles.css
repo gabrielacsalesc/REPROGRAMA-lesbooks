@@ -6,8 +6,21 @@
     position: absolute;
     padding-bottom: 60px;
 }
-.title{
-    color:black;
+.title {
+    font-size: 40px;
+    background: linear-gradient(to right,        
+        #A6246C 5%, 
+        #BF5E9D 10%,    
+        #F2935C 15%,
+        #F26835 20%,
+        #BF2626 25%
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    font-family: Arial;
+    margin-top: 8em;
+    margin-left: 5em;
 }
 
 

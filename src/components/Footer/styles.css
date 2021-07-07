@@ -4,11 +4,12 @@
     height: 40px;
     background:#BF2626;
     position: fixed;
-    bottom: 0;
-    font-size: 0.8rem;
+    bottom: 0;    
     align-items: center;
     justify-content: center;
     color: #FFFF;
+}
+.paragrafoFooter{
+    font-size: 0.8rem;
     letter-spacing: 0.8px;
-
 }
