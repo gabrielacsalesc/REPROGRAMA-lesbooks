@@ -1,15 +1,16 @@
 import React from 'react'
 import Menu from '../../components/Menu'
-import Footer from '../../components/Footer'
 import Projetoconteudo from '../../components/Projetoconteudo'
+import Footer from '../../components/Footer'
+
 
 const Projeto =()=>{
     return (
         <>
             <div className="projeto">
-                <Menu /> 
+                <Menu />
+                <Projetoconteudo /> 
                 <Footer />
-                <Projetoconteudo />           
             </div>        
         </>
         

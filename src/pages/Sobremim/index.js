@@ -1,17 +1,16 @@
 import React from 'react'
 import Menu from '../../components/Menu'
-import Banner from '../../components/Banner'
-import Footer from '../../components/Footer'
 import Sobremimconteudo from '../../components/Sobremimconteudo'
+import Footer from '../../components/Footer'
 
 
-const Sobremim =()=>{
+
+const Sobremim = () =>{
     return(
         <>
             <Menu />
-            <Banner />
-            <Footer />
             <Sobremimconteudo />
+            <Footer />            
         </>
     )
 }
