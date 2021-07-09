@@ -1,19 +1,37 @@
+.busca{
+    align-items: center;
+    margin-bottom:25em;
+    background-color: #A6246C;
+    transition-property: background-color, opacity, border;
+    transition-duration: 1s;
+}
+.busca:hover{
+    background-color: opacity;
+    border: #A6246C;
+}
 .main-autora {
     display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
-    background-color: wheat;
+    background-color: #E5E5E5;
+    margin-top: auto;    
 }
-
 .main-autora .card{
-    background-color: wheat;
+    background-color: #E5E5E5;
     width: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    margin: 10% 10% 5% 10%;
+    text-align: justify;
+}
+.capa > img{
+    border-radius: 15px;
+    width: 100%;
+    max-width: 100px;
 }
 
 .main-autora .card img{
@@ -22,19 +40,5 @@
 }
 
 .main-autora .card h2{
-    color:#4f2158;
-}
-
-
-.main-autora button {
-    background-color: black;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+    color:#A6246C;
 }

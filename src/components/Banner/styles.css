@@ -1,10 +1,13 @@
-.imagem{
-    height: 550px;
-    width: 466px;
-    left: 900px;
-    top: 150px;
-    position: absolute;
-    padding-bottom: 60px;
+.main{ background-image: -o-repeating-linear-gradient( to bottom,
+    #BF2626, 
+    #F26835,
+    #F2935C, 
+    #ffff, 
+    #BF5E9D, 
+    #A6246C
+    );
+    background-attachment: fixed;
+    width: 100%;
 }
 .title {
     font-size: 40px;
@@ -18,9 +21,14 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 900;
-    font-family: Arial;
+    font-family: Roboto;
     margin-top: 8em;
     margin-left: 5em;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
+.title:hover{
+    color: #ffff;
 }
 
 

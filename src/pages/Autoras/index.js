@@ -6,8 +6,10 @@ import Footer from '../../components/Footer'
 
 const Autoras = () => {
     const [autora, setAutora] = useState([])
-    const [clique, setClique] = useState(()=>{})
+    const [busca, setBusca] = useState('')
+    const [filtraAutora, setFiltraAutora] = useState([])
     
+
     useEffect(()=>{
         const pegaDados = async ()=> {
             const resposta = await Axios.get('https://my-json-server.typicode.com/gabrielacsalesc/livros/db')
@@ -15,34 +17,38 @@ const Autoras = () => {
             setAutora(dados)
         }
         pegaDados()
-    },[clique])
+    },[])    
 
-    function ligaClique(){
-        setClique(autora)
-    }
+    useEffect(()=>{
+        setFiltraAutora(
+            autora.filter(perso => {
+                return autora.includes(busca)
+            })
+        )
+    },[busca,autora])
+
+
 
     return (
         <>
-            <Menu />
-            <div className="main-autora">
+            <Menu />         
+            <div className="main-autora">    
+            <input className="busca" type ="text" placeholder="Encontre a autora"  onChange={e=>{setBusca(e.target.value)}}/>           
                 {autora.map(perso => {
-                    return(
+                    return(                        
                         <div className="card">
-                            
-                            <img src={perso.capa} alt="autoras dos livros"/>
+                            <img className="capa" src={perso.capa} alt="capa do livro"/>
                             <p>{perso.titulo}</p>
                             <p>{perso.autora}</p>
                             <p>{perso.descricao}</p>
-                        </div>
-                        
+                        </div>                        
                     )
                 })}
-                <button onClick={ligaClique}>Clique para trocar a</button>
+                
             </div>
             <Footer />
         </>
     )
 }
-
 
 export default Autoras

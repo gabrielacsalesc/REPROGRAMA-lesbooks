@@ -32,6 +32,18 @@
     color: #FFFF;
     text-decoration: none;
     border-radius: 20%;
-    align-content: center;      
-    
+    align-content: center;  
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    font: Roboto;
+
+}
+.link:hover{
+    background: linear-gradient(to right,        
+        #A6246C 5%, 
+        #BF5E9D 15%,    
+        #F2935C 25%,
+        #F26835 35%,
+        #BF2626 45%
+    );
 }
