@@ -38,11 +38,11 @@
    |         |- 📁 ProjectContent
    |                |- 📄 index.js
    |                |- 📄 styles.css
-
+   |
    |    |- 📁 Formulario 
    |         |- 📄 index.js
    |         |- 📄 styles.css
-
+   |
    |    |- 📁 Hooks
    |         |- 📄 styles.css
    |         |- 📄 useForm.js  
@@ -71,6 +71,9 @@
    |    |- 📄 global.css
    |
    |
+   
+   
+   
    [![Netlify Status](https://api.netlify.com/api/v1/badges/0d145453-0779-4b74-b110-3e4d211fff40/deploy-status)](https://app.netlify.com/sites/projeto-final-lesbooks/deploys)
 
    
