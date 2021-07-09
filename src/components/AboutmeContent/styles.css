@@ -1,5 +1,5 @@
 
-.sobremimParagrafo p {    
+.aboutmeParagraph p {    
     width: 500px;
     height: 250px;
     background-color: #A6246C;
@@ -15,11 +15,11 @@
     text-align: justify;
     color: #ffff;
 }
-.sobremimConteudo{
+.contentAboutme{
     padding-bottom: 10em;
     background-color: #E5E5E5;
 }
-.imagem2{
+.image{
     width: 200px;
     margin-top: 12em;
     margin-left: 25em;

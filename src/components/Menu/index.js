@@ -4,7 +4,7 @@ import './styles.css'
 
 const Menu = () => {
     return (
-        <div className="menuCaixa">
+        <div className="menuBox">
             <ul className="menu">
                 <li>
                     <Link className="link" to="/">Home</Link>

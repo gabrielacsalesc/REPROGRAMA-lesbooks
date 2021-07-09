@@ -1,4 +1,4 @@
-.Projetoconteudo{
+.contentProject{
     margin-top: 5em;
     margin-left: 29em;
     width: 500px;
@@ -10,7 +10,7 @@
     text-align: justify;
     color: #ffff;
 }
-.titulo-projeto{
+.title-project{
     font-family: Roboto;
     color: #ffff;
     font-size: 50px;
@@ -31,7 +31,7 @@
     transition-duration: 0.5s;
 }
 
-.projetoParagrafo p {
+.projectParagraph p {
     text-align: justify;
     padding-top: 15em;
     font-family: Roboto;

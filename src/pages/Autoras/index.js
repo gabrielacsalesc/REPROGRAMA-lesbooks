@@ -26,15 +26,15 @@ const BuscaAutora = () => {
 return (
     <div className="main-autora">
         <Menu />
-    <h1 className="titulo-autora">AUTORAS</h1>
+    <h1 className="title-autora">AUTORAS</h1>
     <form onSubmit={handleSubmit(BuscaAutora)}>
-        <input className="busca"
+        <input className="search"
         onChange={handleChange}
         type="text"
         name="name"
         placeholder="encontre sua autora"
         />
-        <button className="button-busca" type="submit">{loading ? 'Enviando...' : 'Enviar'}</button>
+        <button className="button-search" type="submit">{loading ? 'Enviando...' : 'Enviar'}</button>
         </form>
     {autora.map(perso => {
         if(filtroAutora.name == perso.autora || filtroAutora.name == undefined){

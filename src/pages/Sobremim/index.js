@@ -1,7 +1,7 @@
 import React from 'react'
 import Menu from '../../components/Menu'
-import Sobremimconteudo from '../../components/Sobremimconteudo'
 import Footer from '../../components/Footer'
+import AboutmeContent from '../../components/AboutmeContent'
 
 
 
@@ -9,7 +9,7 @@ const Sobremim = () =>{
     return(
         <>
             <Menu />
-            <Sobremimconteudo />
+            <AboutmeContent />
             <Footer />            
         </>
     )

@@ -9,10 +9,10 @@
     justify-content: center;
     
 }
-.caixa-footer{
+.box-footer{
     position: fixed;
 }
-.paragrafoFooter{
+.paragraphFooter{
     font-size: 0.7rem;
     font: Roboto;
     color: #FFFF;

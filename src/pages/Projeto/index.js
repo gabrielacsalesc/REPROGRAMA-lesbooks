@@ -1,6 +1,6 @@
 import React from 'react'
 import Menu from '../../components/Menu'
-import Projetoconteudo from '../../components/Projetoconteudo'
+import ProjectContent from '../../components/ProjectContent'
 import Footer from '../../components/Footer'
 
 
@@ -9,7 +9,7 @@ const Projeto =()=>{
         <>
             <div className="projeto">
                 <Menu />
-                <Projetoconteudo /> 
+                <ProjectContent /> 
                 <Footer />
             </div>        
         </>

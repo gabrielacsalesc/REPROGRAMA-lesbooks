@@ -1,17 +1,17 @@
 import React from 'react'
 import './styles.css'
-import img from '../../assets/imagem2.png'
+import img from '../../assets/image.png'
 import ImgGithub from '../../assets/icons8-github-50.png'
 import ImgLinkedin from '../../assets/icons8-linkedin-50.png'
 import ImgInstagram from '../../assets/icons8-instagram-50.png'
 
 
-const Sobremimconteudo = () => {
+const AboutmeContent = () => {
     return (
         <div>
-            <div className="sobremimConteudo">
-                <img className="imagem2" src={img} alt="ilustracao com logo do react" />               
-                    <div className="sobremimParagrafo">
+            <div className="contentAboume">
+                <img className="image" src={img} alt="desenvolvedora do site" />               
+                    <div className="aboutmeParagraph">
                         <p> 
                             Gabriela mora em Brasília, é graduada em História pela Universidade de Brasília, atua como professora de Inglês para crianças e adultos. É co-fundadora do Arquivo Lésbico Brasileiro, onde também leciona cursos e atua como Controladora Fiscal. Começou sua trajetória na área de tecnologia através do curso online Eu ProgrAmo em 2020, e se formou em 2021, no bootcamp da turma 10 da Reprograma. Dedica seu tempo aos estudos afim de se tornar uma Desenvolvedora Front-End e conseguir sua primeira oportunidade.
                         </p>
@@ -33,4 +33,4 @@ const Sobremimconteudo = () => {
             </div>  
     )   </div>
 )}
-export default Sobremimconteudo
+export default AboutmeContent
