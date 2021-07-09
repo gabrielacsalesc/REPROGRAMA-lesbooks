@@ -12,7 +12,7 @@ const Sobremimconteudo = () => {
             <img className="imagem2" src={img} alt="ilustracao com logo do react" />               
                 <div className="sobremimParagrafo">
                     <p> 
-                        Gabriela mora em Brasília é graduada em História, pela Universidade de Brasília, atua como professora de Inglês para crianças e adultos. É co-fundadora do Arquivo Lésbico Brasileiro, onde leciona cursos e atua como Controladora Fiscal. Começou sua trajetória na área de tecnologia através do curso online Eu ProgrAmo, em 2020, e se formou em 2021, no bootcamp da turma 10 da Reprograma e dedica seu tempo aos estudos para se tornar uma Desenvolvedora Front-End e conseguir sua primeira oportunidade.
+                        Gabriela mora em Brasília, é graduada em História pela Universidade de Brasília, atua como professora de Inglês para crianças e adultos. É co-fundadora do Arquivo Lésbico Brasileiro, onde também leciona cursos e atua como Controladora Fiscal. Começou sua trajetória na área de tecnologia através do curso online Eu ProgrAmo em 2020, e se formou em 2021, no bootcamp da turma 10 da Reprograma. Dedica seu tempo aos estudos afim de se tornar uma Desenvolvedora Front-End e conseguir sua primeira oportunidade.
                     </p>
                 </div>           
             

@@ -31,9 +31,9 @@ const Autoras = () => {
 
     return (
         <>
-            <Menu />         
-            <div className="main-autora">    
-            <input className="busca" type ="text" placeholder="Encontre a autora"  onChange={e=>{setBusca(e.target.value)}}/>           
+            <Menu />        
+            <input className="busca" type ="text" placeholder="Encontre a autora"  onChange={e=>{setBusca(e.target.value)}}/> 
+            <div className="main-autora">               
                 {autora.map(perso => {
                     return(                        
                         <div className="card">

@@ -1,10 +1,22 @@
 .busca{
     align-items: center;
-    margin-bottom:25em;
+    margin-bottom:1em;
+    margin-left: 35em;
     background-color: #A6246C;
     transition-property: background-color, opacity, border;
     transition-duration: 1s;
+    margin-top: 7em;
+    padding-right: 5em;
+    padding-left: 5em;
+    border-radius: 20em;
 }
+#placeholder{
+    padding-left: 2em;
+}
+#root{
+    background-color: #E5E5E5;
+}
+
 .busca:hover{
     background-color: opacity;
     border: #A6246C;
