@@ -4,12 +4,13 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #FFFF;
+    background-color: #e5e5e5;
     width: 100%;
 }
 body, input, button, textarea{
-    font: 600 18px Nunito, sans-serif;
+    font: 600 18px Roboto, sans-serif;
 }
 p{
     font-size: 15px;
+    font-weight: 400;
 }

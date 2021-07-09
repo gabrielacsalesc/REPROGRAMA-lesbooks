@@ -1,20 +1,47 @@
-
 .Projetoconteudo{
-    margin-top: 14em;
-    margin-left: 24em;
+    margin-top: 5em;
+    margin-left: 29em;
     width: 500px;
-    height: 200px;
-    background: #F2935C;
+    height: 250px;
+    background: #F26835;
     border-radius: 60px;
+    padding: 5em 5em 5em 5em;
+    padding-top: 2em;
+    text-align: justify;
+    color: #ffff;
+}
+.titulo-projeto{
+    font-family: Roboto;
+    color: #ffff;
+    font-size: 50px;
+    background: linear-gradient(to right,        
+        #A6246C 5%, 
+        #BF5E9D 10%,    
+        #F2935C 15%,
+        #F26835 20%,
+        #BF2626 25%
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    font-family: Roboto;
+    margin-top: 3em;
+    margin-left: 5em;
+    transition-property: opacity;
+    transition-duration: 0.5s;
 }
 
 .projetoParagrafo p {
     text-align: justify;
-    padding-top: 10px;
-    color: black;
+    padding-top: 15em;
     font-family: Roboto;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
     letter-spacing: 0.1em;
+    color: #FFFF;
+}
+a{
+    text-decoration: none;
+    color: #A6246C;
 }

@@ -1,46 +1,34 @@
-.sobremimParagrafo p {
-    color: black;
-    font-family: Roboto;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: 0.1em;
-    text-align: justify;
-    padding-top: 4em;
+
+.sobremimParagrafo p {    
     width: 500px;
-    height: 200px;
+    height: 250px;
     background-color: #A6246C;
     border-radius: 50px;
-    margin-left: 43em;
-    margin-bottom: 2em;
-    justify-content: center;
+    margin-left: 45em;
+    margin-bottom: 1em;
+    margin-top: -22em;
+    padding: 5em 5em 5em 5em;
+    padding-top: 2em;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: justify;
+    color: #ffff;
 }
 .sobremimConteudo{
-    padding-bottom: 2em;
+    padding-bottom: 10em;
     background-color: #E5E5E5;
 }
 .imagem2{
     width: 200px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 7em;
-    margin-left: 37em;
-    border-radius: 50px;
-    padding-bottom: 1em;
-
+    margin-top: 12em;
+    margin-left: 25em;
+    border-radius: 50px;   
+    margin-bottom: 4em;
 }
 .socialMedia{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 1em;
-}
-.linkedin .instagram .github{
-    transition-property: background-color;
-    transition-duration: 1s;
-}
-.linkedin .instagram .github:hover{
-    background-color: black;
+    justify-content: left;
+    margin-left: 26em;
 }

@@ -7,10 +7,15 @@
     bottom: 0;    
     align-items: center;
     justify-content: center;
-    color: #FFFF;
+    
+}
+.caixa-footer{
+    position: fixed;
 }
 .paragrafoFooter{
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     letter-spacing: 0.8px;
     font: Roboto;
+    color: #FFFF;
+    margin-top: 1em;
 }

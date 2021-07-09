@@ -1,25 +1,50 @@
+.titulo-autora{
+    font-family: Roboto;
+    color: #ffffff;
+    font-size: 50px;
+    background: linear-gradient(to right,        
+        #A6246C 15%, 
+        #BF5E9D 35%,    
+        #F2935C 45%,
+        #F26835 65%,
+        #BF2626 75%
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    font-family: Roboto;
+    margin-top: 3em;
+    margin-left: 5em;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
 .busca{
     align-items: center;
-    margin-bottom:1em;
-    margin-left: 35em;
-    background-color: #A6246C;
+    margin-left: 31em;
+    background-color: #ffff;
+    border-color: #A6246C;
     transition-property: background-color, opacity, border;
-    transition-duration: 1s;
-    margin-top: 7em;
+    transition-duration: 3s;
+    margin-top: 5em;
     padding-right: 5em;
     padding-left: 5em;
-    border-radius: 20em;
+    border-radius: 20px;
 }
-#placeholder{
-    padding-left: 2em;
-}
-#root{
-    background-color: #E5E5E5;
-}
-
 .busca:hover{
     background-color: opacity;
     border: #A6246C;
+}
+.button-busca{
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 20px;
+    background-color: #A6246C;
+    transition-property: background-color, border;
+    transition-duration: 3s;
+    color:#ffff;
+}
+.button-busca:hover{
+    border-color: #A6246C;
 }
 .main-autora {
     display: flex;
@@ -28,29 +53,52 @@
     justify-content: space-between;
     align-items: center;
     background-color: #E5E5E5;
-    margin-top: auto;    
+    margin-top: auto;  
 }
 .main-autora .card{
     background-color: #E5E5E5;
-    width: 350px;
+    width: 450px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 10% 10% 5% 10%;
+    margin: 5% 10% 5% 10%;
     text-align: justify;
 }
-.capa > img{
-    border-radius: 15px;
+.capa{    
+    border-radius: 20px;   
+    margin-bottom: 1em;
+}
+p{
+    margin-bottom: 1em; 
+}
+img{
     width: 100%;
-    max-width: 100px;
+    max-width: 200px;
 }
 
 .main-autora .card img{
     width: 50%;
     height: 80%;
 }
-
-.main-autora .card h2{
-    color:#A6246C;
+card-descricao p{
+    border-radius: 20em;
+    background-color: #E5E5E5; 
+    
 }
+button{
+    border-color:#E5E5E5;
+    color: #ffff;
+    background-color: #A6246C;
+    border-radius: 10em;
+    padding-left:2em;
+    padding-right:2em;
+    transition-property: border-color;
+    transition-duration: 1s;
+}
+
+button:hover{
+    border-color: #A6246C;
+}
+
+
