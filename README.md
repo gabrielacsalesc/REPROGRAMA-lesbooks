@@ -3,15 +3,17 @@
 
 
 ## Tecnologias utilizadas:
-Ferramenta 	Descrição
-React 	Biblioteca javascript
-Hooks 	APIs do React
-npm 	Gerenciador de pacotes
-Netlify 	Servidor para deploy
-react-router-dom 	Biblioteca para criação de rotas no React
+
+| Ferramenta        |  Descrição                                       |
+|-------------------|--------------------------------------------------|
+|  ´React´          |  Biblioteca javascript                           |
+|  ´Hooks´          |  APIs do React                                   |
+|  ´npm´            |  Gerenciador de pacotes                          |
+|  ´Netlify´        |  Servidor para deploy                            |
+| ´react-router-dom´|  Biblioteca para criação de rotas no React       |
 
 📁 Arquitetura
-
+´´´
  📁 projeto-lesbooks
    |
    |-  📁 src
@@ -65,12 +67,11 @@ react-router-dom 	Biblioteca para criação de rotas no React
    |    |- 📄 App.js
    |    |- 📄 index.js
    |    |- 📄 global.css
-   |
-   |
+   |    ´´´
 
 
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0d145453-0779-4b74-b110-3e4d211fff40/deploy-status)](https://app.netlify.com/sites/projeto-final-lesbooks/deploys)
+O projeto pode ser conferido aqui ➡ [![Netlify Status](https://api.netlify.com/api/v1/badges/0d145453-0779-4b74-b110-3e4d211fff40/deploy-status)](https://app.netlify.com/sites/projeto-final-lesbooks/deploys)
 
 ## Gabriela Coutinho
 * **Gabriela Coutinho** - [desenvolvedora front-end](https://github.com/gabrielacsalesc)
