@@ -6,14 +6,14 @@
 
 | Ferramenta        |  Descrição                                       |
 |-------------------|--------------------------------------------------|
-|  ´React´          |  Biblioteca javascript                           |
-|  ´Hooks´          |  APIs do React                                   |
-|  ´npm´            |  Gerenciador de pacotes                          |
-|  ´Netlify´        |  Servidor para deploy                            |
-| ´react-router-dom´|  Biblioteca para criação de rotas no React       |
+|  React            |  Biblioteca javascript                           |
+|  Hooks            |  APIs do React                                   |
+|  npm              |  Gerenciador de pacotes                          |
+|  Netlify          |  Servidor para deploy                            |
+|  react-router-dom |  Biblioteca para criação de rotas no React       |
 
 📁 Arquitetura
-´´´
+```
  📁 projeto-lesbooks
    |
    |-  📁 src
@@ -67,7 +67,8 @@
    |    |- 📄 App.js
    |    |- 📄 index.js
    |    |- 📄 global.css
-   |    ´´´
+   |              
+   ```
 
 
 
