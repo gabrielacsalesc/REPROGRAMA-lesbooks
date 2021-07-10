@@ -1,7 +1,8 @@
 # Projeto Lesbooks
-    O projeto foi inspirado nas discussões acerca da leitura e consumo de literatura desenvolvida por e para mulheres, tendo como objetivo incentivar e promover o consumo dessa literatura. Acredito que o Arquivo Lésbico Brasileiro, do qual faço parte, tem uma boa parcela de contribuição, já que reflete a conservação da história e memória de diversas mulheres que foram perseguidas e preteridas por declarar quem são e quem amam.
+  O projeto foi inspirado nas discussões acerca da leitura e consumo de literatura desenvolvida por e para mulheres, tendo como objetivo incentivar e promover o consumo dessa literatura. Acredito que o Arquivo Lésbico Brasileiro, do qual faço parte, tem uma boa parcela de contribuição, já que reflete a conservação da história e memória de diversas mulheres que foram perseguidas e preteridas por declarar quem são e quem amam.
 
-Tecnologias utilizadas:
+
+## Tecnologias utilizadas:
 Ferramenta 	Descrição
 React 	Biblioteca javascript
 Hooks 	APIs do React
@@ -11,7 +12,7 @@ react-router-dom 	Biblioteca para criação de rotas no React
 
 📁 Arquitetura
 
- 📁 instituto-biomabrasil
+ 📁 projeto-lesbooks
    |
    |-  📁 src
    |    |
@@ -36,7 +37,6 @@ react-router-dom 	Biblioteca para criação de rotas no React
    |                |- 📄 styles.css
    |         |- 📁 ProjectContent 
    |                |- 📄 index.js
-<<<<<<< HEAD
    |                |- 📄 styles.css         
    |    |- 📁 Formulario
    |          |- 📄 index.js       
@@ -44,18 +44,6 @@ react-router-dom 	Biblioteca para criação de rotas no React
    |    |- 📁 hooks
    |          |- 📄 index.js       
    |          |- 📄 styles.css   
-=======
-   |                |- 📄 styles.css
-   |
-   |    |- 📁 Formulario 
-   |         |- 📄 index.js
-   |         |- 📄 styles.css
-   |
-   |    |- 📁 Hooks
-   |         |- 📄 styles.css
-   |         |- 📄 useForm.js  
-   |
->>>>>>> 5982b33acd1e5603c636c2642b4c5aeb5a844f9a
    |    |- 📁 pages
    |         |- 📁 Autoras
    |                |- 📄 index.js
@@ -79,16 +67,6 @@ react-router-dom 	Biblioteca para criação de rotas no React
    |    |- 📄 global.css
    |
    |
-<<<<<<< HEAD
-=======
-   
-   
-   
-   [![Netlify Status](https://api.netlify.com/api/v1/badges/0d145453-0779-4b74-b110-3e4d211fff40/deploy-status)](https://app.netlify.com/sites/projeto-final-lesbooks/deploys)
-
->>>>>>> 5982b33acd1e5603c636c2642b4c5aeb5a844f9a
-   
-
 
 
 
