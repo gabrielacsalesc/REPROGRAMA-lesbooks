@@ -1,18 +1,17 @@
 # Projeto Lesbooks
     O projeto foi inspirado nas discussões acerca da leitura e consumo de literatura desenvolvida por e para mulheres, tendo como objetivo incentivar e promover o consumo dessa literatura. Acredito que o Arquivo Lésbico Brasileiro, do qual faço parte, tem uma boa parcela de contribuição, já que reflete a conservação da história e memória de diversas mulheres que foram perseguidas e preteridas por declarar quem são e quem amam.
 
-## Tecnologias que vamos usar:
-🛠️ Ferramenta 	📋 Descrição
-* React 	Biblioteca javascript
-* Hooks 	APIs do React
-* Axios 	Biblioteca para consumir API
-* npm     Gerenciador de pacotes
-* Netlify Servidor para deploy
-* react-router-dom 	Biblioteca para criação de rotas no React
+Tecnologias utilizadas:
+Ferramenta 	Descrição
+React 	Biblioteca javascript
+Hooks 	APIs do React
+npm 	Gerenciador de pacotes
+Netlify 	Servidor para deploy
+react-router-dom 	Biblioteca para criação de rotas no React
 
 📁 Arquitetura
 
- 📁 projeto-lesbooks
+ 📁 instituto-biomabrasil
    |
    |-  📁 src
    |    |
@@ -26,29 +25,26 @@
    |         |- 📁 AboutmeContent 
    |                |- 📄 index.js
    |                |- 📄 styles.css
-   |         |- 📁 Banner 
+   |         |- 📁 Banner
    |                |- 📄 index.js
    |                |- 📄 styles.css
-   |         |- 📁 Footer
+   |         |- 📁 Footer 
    |                |- 📄 index.js
    |                |- 📄 styles.css
-   |         |- 📁 Menu 
+   |         |- 📁 Menu
    |                |- 📄 index.js
    |                |- 📄 styles.css
-   |         |- 📁 ProjectContent
+   |         |- 📁 ProjectContent 
    |                |- 📄 index.js
-   |                |- 📄 styles.css
-
-   |    |- 📁 Formulario 
-   |         |- 📄 index.js
-   |         |- 📄 styles.css
-
-   |    |- 📁 Hooks
-   |         |- 📄 styles.css
-   |         |- 📄 useForm.js  
-   |
+   |                |- 📄 styles.css         
+   |    |- 📁 Formulario
+   |          |- 📄 index.js       
+   |          |- 📄 styles.css
+   |    |- 📁 hooks
+   |          |- 📄 index.js       
+   |          |- 📄 styles.css   
    |    |- 📁 pages
-   |         |- 📁 Autoras 
+   |         |- 📁 Autoras
    |                |- 📄 index.js
    |                |- 📄 styles.css
    |         |- 📁 Home
@@ -57,10 +53,9 @@
    |         |- 📁 Projeto
    |                |- 📄 index.js
    |                |- 📄 styles.css
-   |         |- 📁 Sobremim
+   |         |- 📁 Sobremim 
    |                |- 📄 index.js
    |                |- 📄 styles.css
-   |
    |    |- 📁 routes
    |         |- 📄 Routes.js 
    |    
@@ -71,9 +66,13 @@
    |    |- 📄 global.css
    |
    |
-   [![Netlify Status](https://api.netlify.com/api/v1/badges/0d145453-0779-4b74-b110-3e4d211fff40/deploy-status)](https://app.netlify.com/sites/projeto-final-lesbooks/deploys)
-
    
+
+
+
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0d145453-0779-4b74-b110-3e4d211fff40/deploy-status)](https://app.netlify.com/sites/projeto-final-lesbooks/deploys)
+
 ## Gabriela Coutinho
 * **Gabriela Coutinho** - [desenvolvedora front-end](https://github.com/gabrielacsalesc)
 
