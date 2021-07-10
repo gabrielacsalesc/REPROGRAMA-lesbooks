@@ -13,7 +13,8 @@
 | ´react-router-dom´|  Biblioteca para criação de rotas no React       |
 
 📁 Arquitetura
-´´´
+
+```
  📁 projeto-lesbooks
    |
    |-  📁 src
@@ -67,7 +68,10 @@
    |    |- 📄 App.js
    |    |- 📄 index.js
    |    |- 📄 global.css
-   |    ´´´
+   |    
+   |
+   |
+  ```
 
 
 
